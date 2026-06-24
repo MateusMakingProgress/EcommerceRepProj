@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,11 +30,19 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
-
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapGet("/", (ClaimsPrincipal user) => user.Identity!.Name)
+    .RequireAuthorization();
+
 app.MapIdentityApi<IdentityUser>();
+
+app.MapPost("/logout",
+    async (SignInManager<IdentityUser> signInManager, [FromBody] object empty) =>
+    {
+        await signInManager.SignOutAsync();
+        return Results.Ok();
+    });
 
 app.Run();

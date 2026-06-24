@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ayMPc65IGWE=",
+  "dgSpecHash": "vx/VoEjryaA=",
   "success": true,
-  "projectFilePath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\AuthMicroservice\\AuthMicroservice.csproj",
+  "projectFilePath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\EcommerceRepProj\\AuthMicroservice\\AuthMicroservice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MateusIsadora\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\MateusIsadora\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -72,9 +72,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "O pacote 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
-      "projectPath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\AuthMicroservice\\AuthMicroservice.csproj",
+      "projectPath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\EcommerceRepProj\\AuthMicroservice\\AuthMicroservice.csproj",
       "warningLevel": 1,
-      "filePath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\AuthMicroservice\\AuthMicroservice.csproj",
+      "filePath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\EcommerceRepProj\\AuthMicroservice\\AuthMicroservice.csproj",
       "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
       "targetGraphs": [
         "net10.0"
