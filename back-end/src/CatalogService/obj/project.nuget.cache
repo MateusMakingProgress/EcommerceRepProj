@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lLI3LvLVZeI=",
+  "success": true,
+  "projectFilePath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\back-end\\src\\CatalogService\\CatalogService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MateusIsadora\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\MateusIsadora\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
