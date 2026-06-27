@@ -1,0 +1,90 @@
+# .gitignore
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio cache/options directory
+.vs/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+.nuget/packages/
+nuget.config
+
+# MSBuild
+*.msbuild.log
+*.log
+
+# ReSharper
+.resharper
+.resharper.user
+_ReSharper*/
+*_ReSharper.sln
+
+# Code Coverage
+*.coverage
+OpenCover/
+
+# Entity Framework
+migrations/
+*.edmx.diagram
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+appsettings.Development.json
+appsettings.Local.json
+
+# IDE Rider
+.idea/
+.idea_modules/
+*.sln.iml
+riderModule.iml
+
+# Rider
+.rider/
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Publish
+PublishProfiles/
+publish/
+PublishSettings/
+
+# Local file uploads/data
+uploads/
+data/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
