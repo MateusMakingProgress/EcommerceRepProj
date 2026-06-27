@@ -3720,11 +3720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\EcommerceRepProj\\AuthMicroservice\\AuthMicroservice.csproj",
+      "projectUniqueName": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\back-end\\src\\AuthMicroservice\\AuthMicroservice.csproj",
       "projectName": "AuthMicroservice",
-      "projectPath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\EcommerceRepProj\\AuthMicroservice\\AuthMicroservice.csproj",
+      "projectPath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\back-end\\src\\AuthMicroservice\\AuthMicroservice.csproj",
       "packagesPath": "C:\\Users\\MateusIsadora\\.nuget\\packages\\",
-      "outputPath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\EcommerceRepProj\\AuthMicroservice\\obj\\",
+      "outputPath": "E:\\estudo_mateus\\RepProjECo\\EcommerceRepProj\\back-end\\src\\AuthMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
