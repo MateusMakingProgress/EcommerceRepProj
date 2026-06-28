@@ -575,3 +575,4 @@ E:\estudo_mateus\RepProjECo\EcommerceRepProj\back-end\src\AuthMicroservice\obj\D
 E:\estudo_mateus\RepProjECo\EcommerceRepProj\back-end\src\AuthMicroservice\obj\Debug\net10.0\AuthMicroservice.pdb
 E:\estudo_mateus\RepProjECo\EcommerceRepProj\back-end\src\AuthMicroservice\obj\Debug\net10.0\AuthMicroservice.genruntimeconfig.cache
 E:\estudo_mateus\RepProjECo\EcommerceRepProj\back-end\src\AuthMicroservice\obj\Debug\net10.0\ref\AuthMicroservice.dll
+E:\estudo_mateus\RepProjECo\EcommerceRepProj\back-end\src\AuthMicroservice\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
