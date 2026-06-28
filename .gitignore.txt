@@ -16,8 +16,10 @@ riderModule.iml
 # Build e Binários (Ajustado para os Microserviços no back-end)
 # =======================================================================
 # Ignora bin e obj dentro de qualquer pasta no back-end/src/
-back-end/src/**/bin/
-back-end/src/**/obj/
+back-end/src/AuthMicroservice/**/bin/
+back-end/src/CatalogService/**/bin/
+back-end/src/AuthMicroservice/**/obj/
+back-end/src/CatalogService/**/obj/
 out/
 *.exe
 *.dll
