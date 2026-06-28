@@ -1,0 +1,81 @@
+# Visual Studio / Visual Studio Code / Rider
+.vs/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+.idea/
+.idea_modules/
+*.sln.iml
+riderModule.iml
+.rider/
+
+# Build e binários (.NET)
+[Bb]in/
+[Oo]bj/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# Arquivos específicos de usuário e cache
+*.csproj.user
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Bancos de dados locais (SQLite)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Configuração e ambiente
+.env
+.env.local
+.env.*.local
+
+# appsettings de desenvolvimento/local (mantém appsettings.json)
+[Aa]ppsettings.Development.json
+[Aa]ppsettings.Local.json
+![Aa]ppsettings.json
+
+# Gerenciadores de pacotes e logs
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+.nuget/packages/
+nuget.config
+*.msbuild.log
+*.log
+
+# ReSharper, coverage, publish
+.resharper
+.resharper.user
+_ReSharper*/
+*_ReSharper.sln
+*.coverage
+OpenCover/
+TestResults/
+*.trx
+PublishProfiles/
+publish/
+PublishSettings/
+
+# Entity Framework
+*.edmx.diagram
+
+# Uploads e temporários
+uploads/
+data/
+*.tmp
+*.temp
+~$*
