@@ -1,0 +1,126 @@
+### \=======================================================================
+
+### Visual Studio / Visual Studio Code / Rider (Geral)
+
+### \=======================================================================
+
+.vs/  
+.vscode/  
+\*.code-workspace  
+.DS\_Store  
+Thumbs.db  
+.idea/  
+.idea\_modules/  
+\*.sln.iml  
+riderModule.iml  
+.rider/ 
+
+### \=======================================================================
+
+### Build e Binários (Otimizado para .NET)
+
+### \=======================================================================
+
+### Ignora bin e obj em qualquer subpasta do repositório
+
+\[Bb\]in/  
+\[Ob\]js/  
+out/  
+\*.exe  
+\*.dll  
+\*.so  
+\*.dylib  
+\*.lib  
+\*.a 
+
+### \=======================================================================
+
+### Arquivos específicos de Usuário e Cache
+
+### \=======================================================================
+
+\*.csproj.user  
+\*.user  
+\*.rsuser  
+\*.suo  
+\*.userosscache  
+\*.sln.docstates  
+\*.userprefs 
+
+### \=======================================================================
+
+### Bancos de Dados Locais (SQLite)
+
+### \=======================================================================
+
+### Ignora arquivos de banco e arquivos temporários de escrita do SQLite
+
+\*.db  
+\*.db-shm  
+\*.db-wal  
+\*.sqlite  
+\*.sqlite3 
+
+### \=======================================================================
+
+### Arquivos de Configuração e Ambiente (Segurança!)
+
+### \=======================================================================
+
+.env  
+.env.local  
+.env.\*.local 
+
+### Ignora os appsettings de Desenvolvimento/Locais de todos os microserviços
+
+\[Aa\]ppsettings.Development.json  
+\[Aa\]ppsettings.Local.json 
+
+### Mantém o appsettings.json padrão (ele DEVE ir para o Git como base)
+
+!\[Aa\]ppsettings.json 
+
+### \=======================================================================
+
+### Gerenciadores de Pacotes e Logs
+
+### \=======================================================================
+
+\*.nupkg  
+\*.snupkg  
+.nuget/  
+packages/  
+.nuget/packages/  
+nuget.config  
+\*.msbuild.log  
+\*.log 
+
+### \=======================================================================
+
+### Ferramentas Adicionais (ReSharper, Coverage, Publish)
+
+### \=======================================================================
+
+.resharper  
+.resharper.user  
+\_ReSharper\*/  
+\*\_ReSharper.sln  
+\*.coverage  
+OpenCover/  
+TestResults/  
+\*.trx  
+PublishProfiles/  
+publish/  
+PublishSettings/ 
+
+### Entity Framework (Mantido caso precise ignorar diagramas)
+
+\*.edmx.diagram 
+
+### Uploads e arquivos temporários
+
+uploads/  
+data/  
+\*.tmp  
+*.temp  
+~$*
